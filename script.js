@@ -1,9 +1,29 @@
-let listadeSuper = [];
-listadesuper[0] = "Agua";
-listadesuper[1] = "Fruta";
-listadesuper[2] = "Queso";
+let listaDeSuper = [];
 
-console.log("Primer elemento" + listadeSuper[0]);
+listaDeSuper.push("Agua");
 
-let ultimoElemento = listadeSuper.length - 1;
-console.log("Último elemento: " + listadeSuper[ultimoElemento]);
+listaDeSuper.push("Fruta");
+
+listaDeSuper.push("Queso");
+
+listaDeSuper.push("Arroz");
+
+console.log(listaDeSuper[0]);
+
+let ultimoElemento = listaDeSuper.length - 1;
+
+console.log(listaDeSuper[ultimoElemento]);
+
+listaDeSuper.push("Huevo");
+listaDeSuper.push("Galletitas");
+
+listaDeSuper.unshift("Jugo");
+listaDeSuper.unshift("Fideos");
+
+console.log(listaDeSuper.length);
+
+let noHabia = listaDeSuper.pop();
+
+let comprado = listaDeSuper.shift();
+
+console.log(listaDeSuper.length);
